@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outDir": "../build/js",
+    "sourceMap": true,
+    "sourceRoot": "/src",
+    "target": "ES2016",
+    "lib": ["DOM", "ES6"],
+    "moduleResolution": "node"
+  },
+  "include": [
+    "../src/**/*.ts"
+  ],
+  "exclude": [
+    "../node_modules",
+    "../src/**/*.spec.ts"
+  ]
+}
